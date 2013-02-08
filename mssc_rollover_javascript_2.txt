@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+div#biog {
+	float:left;
+	/*background:#1e5aba;*/
+	/*background:url(../../img_css/LOGO4.png) repeat;*/
+	/*border:thin solid;*/
+	
+	width:350px;
+	padding-bottom:10px;
+	margin-right:5px;
+}
+div#video {
+	float:left;
+	background:#98a0c1;
+	border-bottom-color:#2C22E3;
+	border-bottom:double;
+	/*border:thin solid;*/
+	border-left:thin solid;
+	border-left-color:#4D6BE6;
+	border-right:thin solid;
+	border-right-color:#4D6BE6;
+	border-top:#CDCAFB;
+	height:191px;
+	padding-top:40px;
+	padding-left:3px;
+}
+div#d_files {
+	float:left;
+	background:#98a0c1;
+	border-bottom-color:#2C22E3;
+	border-bottom:double;
+	/*border:thin solid;*/
+	border-left:thin solid;
+	border-left-color:#4D6BE6;
+	border-right:thin solid;
+	border-right-color:#4D6BE6;
+	border-top:#CDCAFB;
+	height:191px;
+	padding-left:3px;
+	padding-top:40px;
+}
+p#biog_p {
+	font-family:Verdana, Geneva, sans-serif;
+	size:12px;
+	font-style:normal;
+	text-align:justify;
+	color:#FFF;
+}
+div#padre {
+	/*border:1px solid #ccc;*/
+	/*background:#98a0c1;*/
+	/*padding:1px 0;*/
+	background:#8094e7;
+}
+div#stuffs {
+	float:right;
+	
+	/*background:url(../ima_css/LOGO4.png) repeat;*/
+	width:350px;
+	padding-bottom:10px;
+	
+}
+
+div#about_us {
+	float:left;
+	
+	/*background:url(../ima_css/LOGO4.png) repeat;*/
+	
+	width:350px;
+	padding-bottom:10px;
+	padding-left:13px;
+	padding-right:13px;
+	margin-left:5px;
+	margin-right:5px;
+}
+body {
+	background:#98a0c1;
+}
+/* Técnica para limpiar elementos flotantes */ 
+    .limpiar:after {
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.limpiar {
+	display:inline-block;
+}
+.limpiar {
+	display:block;
+}
+* html .limpiar {
+	height:1px;
+}
+div#temp {
+	background:#3d6c9b;
+}
+div#header_biog {
+	float:left;
+	/*border:thin solid;*/
+	
+	width:350px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	color:#FFF;/*height:30px;*/
+		 }
+div#picture_biog {
+	float:left;
+	
+	/*background:url(../../img_css/Untitled-4.png) repeat-y ;*/
+	/*border:#FFF solid 3px;*/
+	background:#1e5aba;
+	border-left:#286bcb solid 3px;
+	border-right:#286bcb solid 3px;	
+}
+
+div#circle_about_us{
+	float:left;
+	margin-top:3px;
+}
+div#circle_biog{
+	float:left;
+	margin-top:3px;
+}
+div#header_stuff {
+	float:left;
+	width:350px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	
+}
+div#circle_stuff{
+	float:left;
+	background:url(../../img_css/templatemo_content_top.png);
+	margin-top:3px;
+}
+div#body_stuff{
+	float:left;
+	/*border:#FFF solid 3px;*/
+	/*margin-top:5px;*/
+	background-color:#a91fba;
+	border-left:#b429cb solid 3px;
+	border-right: #b429cb solid 3px;
+}
+div#header_about_us {
+	float:left;
+	/*background:#780000;*/
+	
+	width:350px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	color:#FFF;
+}
+div#body_about_us{
+	float:left;
+	/*border:#FFF solid 3px;*/
+	
+	background-color:#ba4e1e;
+	border-left:#cb5729 solid 3px;
+	border-right:#cb5729 solid 3px;
+}
+h1#title1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	color:#FFF;
+	font-size:36px;
+}
+iframe {
+	border:0px;
+	 }
+	 img#img_biog{
+		 border:#FFF solid 10px;
+	 }
+</style>
+<script type="text/javascript">
+     
+    function cambiarVideo () {
+    document.getElementById('baseVideo').src="../../img_css/videos_icon_reflect1.png";
+    }
+     
+    function volverVideo () {
+    document.getElementById('baseVideo').src = "../../img_css/videos_icon_reflect2.png";
+    }
+     
+	  function cambiarFile () {
+    document.getElementById('baseFile').src="../../img_css/files_icon_3.png";
+    }
+     
+    function volverFile () {
+    document.getElementById('baseFile').src = "../../img_css/files_icon_4.png";
+    }
+	 
+    </script>
+</head>
+<body>
+<iframe src="../../iframe_navbar.php" width="100%" height="153px" ></iframe>
+<img src="../../img_css/templatemo_header_bg3a.png"  width="100%" alt="header imagen"/>
+
+<div id="padre" class="limpiar">
+  <div id="biog">
+  
+    <div id="header_biog">
+      <center>
+        <img src="../../img_css/NAV_BAR_BIOG.png" width="350" height="65" alt="navigation bar" />
+      </center>
+    </div>
+   <div id="circle_biog"><img src="../../img_css/templatemo_content_top3.png" alt="decoration imagen"/></div>
+    <div id="picture_biog">
+      <center>
+        <img  id="img_biog" src="../../img_css/msc_chairman_1.JPG" width="150"  height="200" alt="biogrhapyc imagen"/>
+      </center>
+     
+      <p id="biog_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
+      <p id="biog_p">Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
+    </div>
+    <!--fin div picture_biog-->
+    <!--fon del div biog-->
+  </div>
+  <div id="about_us">
+    <div id="header_about_us">
+      <center>
+        <img src="../../img_css/NAV_BAR_ABOUT.png" width="350" height="65" alt="imagen decoration"/>
+      </center>
+    </div>
+     <div id="circle_about_us"><img src="../../img_css/templatemo_content_top2.png" alt="imagen decoration" /></div>
+    <div id="body_about_us">
+    <p id="biog_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+      
+      Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
+      </div><!--fin div body header-->
+  </div>
+  <!--fin del div about us-->
+  <div id="stuffs">
+    <div id="header_stuff">
+      <center>
+        <img src="../../img_css/NAV_BAR_BOX.png" width="350" height="65"  alt="imagen decoration"/>
+      </center>
+    </div>
+    <div id="circle_stuff"><img src="../../img_css/templatemo_content_top.png"alt="imagen decoration" /></div>
+    <div id="body_stuff">
+    <center>
+      <a href="../../assets/MSC/assets_msc.php" onMouseOver="cambiarFile();" onMouseOut="volverFile();"><img src="../../img_css/files_icon_4.png"  id="baseFile" alt="link to files" /></a> <a href="../../assets/MSC/siginMSC.php"><img src="../../img_css/register_img.png" alt="link to register user" />
+      
+      </a> <a href="msc_video.php" onMouseOver="cambiarVideo();" onMouseOut="volverVideo();" ><img src="../../img_css/videos_icon_reflect2.png" id="baseVideo" alt="link to video" /></a> <a href="../../img_testimony/MSC/testimony_msc.php"><img src="../../img_css/cool_stuffs_icon_dvd_temp2.png"  alt="link to testimonies page"/></a>
+     
+    </center>
+    </div><!--fin div body stuff-->
+  </div>
+</div>
+<!--fon del div padre-->
+</body>
+</html>
